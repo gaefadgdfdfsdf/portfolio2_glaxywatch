@@ -778,14 +778,15 @@ html, body {
 
 .svg_line_1 polyline {
     stroke-dasharray: 700;
-    stroke-dashoffset: 0;
-    animation: lineAni 2s linear Infinite;
+    stroke-dashoffset: 700;
+    animation: lineAni 1.2s linear Infinite;
     animation: none;
   }
 
 
 .svg_line_1 polyline.lineAni{
-    animation: lineAni 2s linear forwards; /* 애니메이션 실행 */
+    animation: lineAni 1.2s ease-out forwards; /* 애니메이션 실행 */
+    animation-delay:.8s;
 }
 
 @keyframes lineAni {
@@ -800,12 +801,12 @@ html, body {
 .svg_line_1 .circle{
 stroke-dasharray: 700;
 stroke-dashoffset: 0;
-animation: lineAni_el 1s linear forwards;
+animation: lineAni_el .8s linear forwards;
 animation: none;
 }
 
 .svg_line_1 .circle.lineAni_el {
-    animation: lineAni_el 1s linear forwards; /* 애니메이션 실행 */
+    animation: lineAni_el .8s linear forwards; /* 애니메이션 실행 */
 }
 
 @keyframes lineAni_el {
