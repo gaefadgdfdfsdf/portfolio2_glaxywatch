@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 24.1.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="레이어_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px"
+	 y="0px" viewBox="0 0 175 69" style="enable-background:new 0 0 175 69;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#6069FB;}
+	.st1{fill:none;stroke:#FFFFFF;stroke-width:2;stroke-miterlimit:10;}
+</style>
+<g>
+	<circle class="st0" cx="155" cy="20" r="8"/>
+	<circle class="st1" cx="155" cy="20" r="17"/>
+</g>
+<polyline class="st1" points="139.26,26.43 61,65 0,65 "/>
+</svg>
