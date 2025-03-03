@@ -398,8 +398,7 @@ html, body {
     overflow: hidden;
     width: 100%;
     height: 300vh;
-     /* background:  #edd0c2; */
-
+    background: #edd0c2; 
 }    
 
 
@@ -409,13 +408,11 @@ html, body {
 /*  새로 추가  */
 
 .section2 .part0 {
-    /* display: none; */
-    /* position: absolute;
-    bottom: 0;
-    left: 0; */
+    position: absolute;
+    bottom: 200vh; /* 300vh - 100vh */
+    left: 0;
     width: 100%;
     height: 100vh;
-    background:  #edd0c2;
     overflow: hidden;
     z-index: 1000;
 }
@@ -513,7 +510,7 @@ html, body {
     height: 0;
     background: #8e81b6;
     overflow: hidden;
-    z-index: 50;
+    z-index: 1001; /* part0보다 위에 표시 */
 }
 
 
@@ -523,9 +520,9 @@ html, body {
     left: 0;
     width: 100%;
     height: 0;
-    background:  #3d404c;
+    background: #3d404c;
     overflow: hidden;
-    z-index: 20;
+    z-index: 1002; /* part1보다 위에 표시 */
 }
 
 
