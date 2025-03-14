@@ -264,6 +264,7 @@ html, body {
 
 .section1:nth-child(2), .section1:nth-child(3) {
     height: 0;
+    opacity: 0;
 }
 
 .section1_container {
@@ -273,8 +274,13 @@ html, body {
     justify-content: center;
     max-width: 1280px;
     margin: 0 auto; /* 화면 가운데 정렬 */
+    
   
 
+}
+.section:nth-child(3) .section1_container {
+    opacity: 0;
+    transition: opacity .5s ease-in-out;
 }
 
 
@@ -435,11 +441,19 @@ html, body {
 .watchbg_1 .circle_1{
     background-image: url(/img/bg_watch_1.png);
     opacity: 0;
-    transform: translateY(-50px);
+    /* transform: translateY(-50px); */
    
    
    
 }
+
+
+.watchbg_1 .circle_1,
+.watchbg_2 .circle_2,
+.watchbg_3 .circle_3 {
+    transition: opacity 0.8s ease-out, transform 0.8s ease-out;
+}
+
 
 .watchbg_1 .circle_1.animate,
 .watchbg_2 .circle_2.animate,
@@ -453,7 +467,7 @@ html, body {
 .section1:nth-child(2) .watchbg_1 .circle_1{
     background-image: url(/img/bg_watch_2_1.png);
     opacity: 0;
-    transform: translateY(-50px);
+    /* transform: translateY(-50px); */
    
 }
 
@@ -468,7 +482,7 @@ html, body {
 .section1:nth-child(3) .watchbg_1 .circle_1{
     background-image: url(/img/bg_watch_3_1.png);
     opacity: 0;
-    transform: translateY(-50px);
+    /* transform: translateY(-50px); */
    
 }
 
@@ -483,7 +497,7 @@ html, body {
 .watchbg_2 .circle_2{
     background-image: url(/img/bg_watch_2.png);
     opacity: 0;
-    transform: translateY(-50px);
+    /* transform: translateY(-50px); */
     
     
 }
@@ -494,7 +508,7 @@ html, body {
 .section1:nth-child(2) .watchbg_2 .circle_2{
     background-image: url(/img/bg_watch_2_2.png);
     opacity: 0;
-    transform: translateY(-50px);
+    /* transform: translateY(-50px); */
     
 }
 
@@ -503,7 +517,7 @@ html, body {
 .section1:nth-child(3) .watchbg_2 .circle_2{
     background-image: url(/img/bg_watch_3_2.png);
     opacity: 0;
-    transform: translateY(-50px);
+    /* transform: translateY(-50px); */
     
     
 }
@@ -513,7 +527,7 @@ html, body {
 .watchbg_3 .circle_3{
     background-image: url(/img/bg_watch_3.png);
     opacity: 0;
-    transform: translateY(-50px);
+    /* transform: translateY(-50px); */
 }
 
 
@@ -521,7 +535,7 @@ html, body {
 .section1:nth-child(2) .watchbg_3 .circle_3{
     background-image: url(/img/bg_watch_2_3.png);
     opacity: 0;
-    transform: translateY(-50px);
+    /* transform: translateY(-50px); */
    
 }
 
@@ -530,7 +544,7 @@ html, body {
 .section1:nth-child(3) .watchbg_3 .circle_3{
     background-image: url(/img/bg_watch_3_3.png);
     opacity: 0;
-    transform: translateY(-50px);
+    /* transform: translateY(-50px); */
    
 }
 
@@ -547,6 +561,12 @@ html, body {
     left: 100px;
     transition: all .9s ease-in-out;
 }
+
+.right_side.right_2,
+.right_side.right_3{
+    left: 0;
+}
+
 
 
 .right_side.right_1.animate {
@@ -2750,6 +2770,9 @@ animation-iteration-count: 1;
     }
 
 
+    #mobile1 {
+       height: 200vh;
+    }
 }
 /* max-width:768 */
 

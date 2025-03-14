@@ -32,6 +32,15 @@ window.addEventListener("wheel", (e) => {
 
             const right_side_1 = document.querySelector('.right_side.right_1');
 
+            const watchbg_1_circle_1 = document.querySelector('.watchbg_1 .circle_1');
+            const watchbg_2_circle_2 = document.querySelector('.watchbg_2 .circle_2');
+            const watchbg_3_circle_3 = document.querySelector('.watchbg_3 .circle_3');
+
+            watchbg_1_circle_1.classList.remove('animate');
+            watchbg_2_circle_2.classList.remove('animate');
+            watchbg_3_circle_3.classList.remove('animate');
+           
+
             right_side_1.classList.remove('animate');
 
             // NodeList의 각 요소에 대해 스타일 적용
@@ -60,11 +69,21 @@ window.addEventListener("wheel", (e) => {
             const right_side_1 = document.querySelector('.right_side.right_1');
             const right_side_2 = document.querySelector('.right_side.right_2');
             const right_side_3 = document.querySelector('.right_side.right_3');
+            const nth2_watchbg_1_circle_1 = document.querySelector('.section1:nth-child(2) .watchbg_1 .circle_1');
+            const nth2_watchbg_2_circle_2 = document.querySelector('.section1:nth-child(2) .watchbg_2 .circle_2');
+            const nth2_watchbg_3_circle_3 = document.querySelector('.section1:nth-child(2) .watchbg_3 .circle_3');
+
+
+  
+            nth2_watchbg_1_circle_1.classList.remove('animate');
+            nth2_watchbg_2_circle_2.classList.remove('animate');
+            nth2_watchbg_3_circle_3.classList.remove('animate');
+
            
 
             setTimeout(watch_cir_1_1, 700);
-            setTimeout(watch_cir_1_2, 1100);
-            setTimeout(watch_cir_1_3, 1400);
+            setTimeout(watch_cir_1_2, 900);
+            setTimeout(watch_cir_1_3, 1100);
 
 
             right_side_1.classList.add('animate');
@@ -146,10 +165,31 @@ window.addEventListener("wheel", (e) => {
 
             const right_side_3 = document.querySelector('.right_side.right_3');
 
+            const watchbg_1_circle_1 = document.querySelector('.watchbg_1 .circle_1');
+            const watchbg_2_circle_2 = document.querySelector('.watchbg_2 .circle_2');
+            const watchbg_3_circle_3 = document.querySelector('.watchbg_3 .circle_3');
+
+            watchbg_1_circle_1.classList.remove('animate');
+            watchbg_2_circle_2.classList.remove('animate');
+            watchbg_3_circle_3.classList.remove('animate');
+
+            const nth3_watchbg_1_circle_1 = document.querySelector('.section1:nth-child(3) .watchbg_1 .circle_1');
+            const nth3_watchbg_2_circle_2 = document.querySelector('.section1:nth-child(3) .watchbg_2 .circle_2');
+            const nth3_watchbg_3_circle_3 = document.querySelector('.section1:nth-child(3) .watchbg_3 .circle_3');
+
+
+  
+            nth3_watchbg_1_circle_1.classList.remove('animate');
+            nth3_watchbg_2_circle_2.classList.remove('animate');
+            nth3_watchbg_3_circle_3.classList.remove('animate');
+
+
+
+            
            
             setTimeout(watch_cir_2_1, 700);
-            setTimeout(watch_cir_2_2, 1100);
-            setTimeout(watch_cir_2_3, 1400);
+            setTimeout(watch_cir_2_2, 900);
+            setTimeout(watch_cir_2_3, 1100);
 
 
             right_side_3.style.opacity ='0';
@@ -217,11 +257,32 @@ window.addEventListener("wheel", (e) => {
             const h5_3 = document.querySelectorAll('.section1:nth-child(3) h5');
             const right_side_2 = document.querySelector('.right_side.right_2');
             const right_side_3 = document.querySelector('.right_side.right_3');
-          
-           
+            const nth3_section1_container = document.querySelector('.section:nth-child(3) .section1_container');
+            const nth2_watchbg_1_circle_1 = document.querySelector('.section1:nth-child(2) .watchbg_1 .circle_1');
+            const nth2_watchbg_2_circle_2 = document.querySelector('.section1:nth-child(2) .watchbg_2 .circle_2');
+            const nth2_watchbg_3_circle_3 = document.querySelector('.section1:nth-child(2) .watchbg_3 .circle_3');
+
+
+  
+            nth2_watchbg_1_circle_1.classList.remove('animate');
+            nth2_watchbg_2_circle_2.classList.remove('animate');
+            nth2_watchbg_3_circle_3.classList.remove('animate');
+
+
+            const watchbg_1_circle_1 = document.querySelector('.watchbg_1 .circle_1');
+            const watchbg_2_circle_2 = document.querySelector('.watchbg_2 .circle_2');
+            const watchbg_3_circle_3 = document.querySelector('.watchbg_3 .circle_3');
+
+            watchbg_1_circle_1.classList.remove('animate');
+            watchbg_2_circle_2.classList.remove('animate');
+            watchbg_3_circle_3.classList.remove('animate');
+
             setTimeout(watch_cir_3_1, 700);
-            setTimeout(watch_cir_3_2, 1100);
-            setTimeout(watch_cir_3_3, 1400); 
+            setTimeout(watch_cir_3_2, 900);
+            setTimeout(watch_cir_3_3, 1100); 
+
+
+            nth3_section1_container.style.opacity='1';
            
 
             right_side_3.style.opacity ='1';
@@ -297,6 +358,30 @@ window.addEventListener("wheel", (e) => {
             const section_1box = document.querySelectorAll('.section1_container .section_1box');
             const left_side_text3 = document.querySelector('.left_side .text_3');
             const right_side_3 = document.querySelector('.right_side.right_3');
+            const nth3_section1_container = document.querySelector('.section:nth-child(3) .section1_container');
+           
+
+            const nth3_watchbg_1_circle_1 = document.querySelector('.section1:nth-child(3) .watchbg_1 .circle_1');
+            const nth3_watchbg_2_circle_2 = document.querySelector('.section1:nth-child(3) .watchbg_2 .circle_2');
+            const nth3_watchbg_3_circle_3 = document.querySelector('.section1:nth-child(3) .watchbg_3 .circle_3');
+
+
+  
+            nth3_watchbg_1_circle_1.classList.remove('animate');
+            nth3_watchbg_2_circle_2.classList.remove('animate');
+            nth3_watchbg_3_circle_3.classList.remove('animate');
+
+            const watchbg_1_circle_1 = document.querySelector('.watchbg_1 .circle_1');
+            const watchbg_2_circle_2 = document.querySelector('.watchbg_2 .circle_2');
+            const watchbg_3_circle_3 = document.querySelector('.watchbg_3 .circle_3');
+
+            watchbg_1_circle_1.classList.remove('animate');
+            watchbg_2_circle_2.classList.remove('animate');
+            watchbg_3_circle_3.classList.remove('animate');
+
+            
+
+            nth3_section1_container.style.opacity='0';
 
           
             right_side_3.classList.remove('animate');
@@ -345,6 +430,14 @@ window.addEventListener("wheel", (e) => {
             const part_img1 = document.querySelector('.part-inner .img:nth-child(1)');
             const part_img2 = document.querySelector('.part-inner .img:nth-child(2)');
             const part_img3 = document.querySelector('.part-inner .img:nth-child(3)');
+
+            const watchbg_1_circle_1 = document.querySelector('.watchbg_1 .circle_1');
+            const watchbg_2_circle_2 = document.querySelector('.watchbg_2 .circle_2');
+            const watchbg_3_circle_3 = document.querySelector('.watchbg_3 .circle_3');
+
+            watchbg_1_circle_1.classList.remove('animate');
+            watchbg_2_circle_2.classList.remove('animate');
+            watchbg_3_circle_3.classList.remove('animate');
            
 
             section2_part0.style.height = '0';
@@ -372,6 +465,15 @@ window.addEventListener("wheel", (e) => {
             const part_img3 = document.querySelector('.part-inner .img:nth-child(3)');
         
             const section2 = document.querySelector('.section2');
+
+            const watchbg_1_circle_1 = document.querySelector('.watchbg_1 .circle_1');
+            const watchbg_2_circle_2 = document.querySelector('.watchbg_2 .circle_2');
+            const watchbg_3_circle_3 = document.querySelector('.watchbg_3 .circle_3');
+
+            watchbg_1_circle_1.classList.remove('animate');
+            watchbg_2_circle_2.classList.remove('animate');
+            watchbg_3_circle_3.classList.remove('animate');
+
             section2.style.background = '#8e81b6'; // 배경색 변경
 
             section2_part0.style.height = '0';
@@ -394,6 +496,14 @@ window.addEventListener("wheel", (e) => {
            const section2 = document.querySelector('.section2');
            section2.style.background = '#3d404c'; // 다음 단계 배경색 (원래 색상)
 
+           const watchbg_1_circle_1 = document.querySelector('.watchbg_1 .circle_1');
+           const watchbg_2_circle_2 = document.querySelector('.watchbg_2 .circle_2');
+           const watchbg_3_circle_3 = document.querySelector('.watchbg_3 .circle_3');
+
+           watchbg_1_circle_1.classList.remove('animate');
+           watchbg_2_circle_2.classList.remove('animate');
+           watchbg_3_circle_3.classList.remove('animate');
+
            section2_imgs.forEach(img => {
             img.classList.add('animate');
            });
@@ -405,8 +515,14 @@ window.addEventListener("wheel", (e) => {
         }
     } else if (e.deltaY < 0) {
         if (page === 1) {
+
+
             iswheel = false;
             return;
+
+
+         
+           
         }
 
         page--;
@@ -417,6 +533,16 @@ window.addEventListener("wheel", (e) => {
             const bg_text = document.querySelector('.bg-wrap .text');
 
             const right_side_1 = document.querySelector('.right_side.right_1');
+
+            const watchbg_1_circle_1 = document.querySelector('.watchbg_1 .circle_1');
+            const watchbg_2_circle_2 = document.querySelector('.watchbg_2 .circle_2');
+            const watchbg_3_circle_3 = document.querySelector('.watchbg_3 .circle_3');
+
+            
+
+            watchbg_1_circle_1.classList.remove('animate');
+            watchbg_2_circle_2.classList.remove('animate');
+            watchbg_3_circle_3.classList.remove('animate');
 
             right_side_1.classList.remove('animate');
 
@@ -456,9 +582,27 @@ window.addEventListener("wheel", (e) => {
             const right_side_2 = document.querySelector('.right_side.right_2');
             const right_side_3 = document.querySelector('.right_side.right_3');
 
+            setTimeout(watch_cir_1_1, 700);
+            setTimeout(watch_cir_1_2, 900);
+            setTimeout(watch_cir_1_3, 1100);
+
+            const nth2_watchbg_1_circle_1 = document.querySelector('.section1:nth-child(2) .watchbg_1 .circle_1');
+            const nth2_watchbg_2_circle_2 = document.querySelector('.section1:nth-child(2) .watchbg_2 .circle_2');
+            const nth2_watchbg_3_circle_3 = document.querySelector('.section1:nth-child(2) .watchbg_3 .circle_3');
+
+
+  
+            nth2_watchbg_1_circle_1.classList.remove('animate');
+            nth2_watchbg_2_circle_2.classList.remove('animate');
+            nth2_watchbg_3_circle_3.classList.remove('animate');
+
            
             right_side_2.classList.remove('animate');
             right_side_3.classList.remove('animate');
+
+
+
+           
 
             right_side_1.classList.add('animate');
 
@@ -534,7 +678,29 @@ window.addEventListener("wheel", (e) => {
             const right_side_2 = document.querySelector('.right_side.right_2');
             const right_side_3 = document.querySelector('.right_side.right_3');
 
+            const nth3_watchbg_1_circle_1 = document.querySelector('.section1:nth-child(3) .watchbg_1 .circle_1');
+            const nth3_watchbg_2_circle_2 = document.querySelector('.section1:nth-child(3) .watchbg_2 .circle_2');
+            const nth3_watchbg_3_circle_3 = document.querySelector('.section1:nth-child(3) .watchbg_3 .circle_3');
+
+
+  
+            nth3_watchbg_1_circle_1.classList.remove('animate');
+            nth3_watchbg_2_circle_2.classList.remove('animate');
+            nth3_watchbg_3_circle_3.classList.remove('animate');
+
+
+            const watchbg_1_circle_1 = document.querySelector('.watchbg_1 .circle_1');
+            const watchbg_2_circle_2 = document.querySelector('.watchbg_2 .circle_2');
+            const watchbg_3_circle_3 = document.querySelector('.watchbg_3 .circle_3');
+
+            watchbg_1_circle_1.classList.remove('animate');
+            watchbg_2_circle_2.classList.remove('animate');
+            watchbg_3_circle_3.classList.remove('animate');
+
         
+            setTimeout(watch_cir_2_1, 700);
+            setTimeout(watch_cir_2_2, 900);
+            setTimeout(watch_cir_2_3, 1100);
 
             right_side_1.classList.remove('animate');
             right_side_2.classList.add('animate');
@@ -611,6 +777,23 @@ window.addEventListener("wheel", (e) => {
 
             const right_side_2 = document.querySelector('.right_side.right_2');
             const right_side_3 = document.querySelector('.right_side.right_3');
+            const nth3_section1_container = document.querySelector('.section:nth-child(3) .section1_container');
+           
+
+            const nth2_watchbg_1_circle_1 = document.querySelector('.section1:nth-child(2) .watchbg_1 .circle_1');
+            const nth2_watchbg_2_circle_2 = document.querySelector('.section1:nth-child(2) .watchbg_2 .circle_2');
+            const nth2_watchbg_3_circle_3 = document.querySelector('.section1:nth-child(2) .watchbg_3 .circle_3');
+
+
+            setTimeout(watch_cir_3_1, 700);
+            setTimeout(watch_cir_3_2, 900);
+            setTimeout(watch_cir_3_3, 1100); 
+  
+            nth2_watchbg_1_circle_1.classList.remove('animate');
+            nth2_watchbg_2_circle_2.classList.remove('animate');
+            nth2_watchbg_3_circle_3.classList.remove('animate');
+
+            nth3_section1_container.style.opacity='1';
 
           
             right_side_2.classList.remove('animate');
@@ -699,6 +882,17 @@ window.addEventListener("wheel", (e) => {
             const part_img1 = document.querySelector('.part-inner .img:nth-child(1)');
             const part_img2 = document.querySelector('.part-inner .img:nth-child(2)');
             const section2 = document.querySelector('.section2');
+
+            const nth3_watchbg_1_circle_1 = document.querySelector('.section1:nth-child(3) .watchbg_1 .circle_1');
+            const nth3_watchbg_2_circle_2 = document.querySelector('.section1:nth-child(3) .watchbg_2 .circle_2');
+            const nth3_watchbg_3_circle_3 = document.querySelector('.section1:nth-child(3) .watchbg_3 .circle_3');
+
+
+  
+            nth3_watchbg_1_circle_1.classList.remove('animate');
+            nth3_watchbg_2_circle_2.classList.remove('animate');
+            nth3_watchbg_3_circle_3.classList.remove('animate');
+
             section2.style.background = '#edd0c2'; // 배경색 변경
             part0_copy.style.opacity ='1';
             part1_copy.style.opacity ='0';
