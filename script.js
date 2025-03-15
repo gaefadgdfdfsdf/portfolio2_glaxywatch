@@ -582,9 +582,9 @@ window.addEventListener("wheel", (e) => {
             const right_side_2 = document.querySelector('.right_side.right_2');
             const right_side_3 = document.querySelector('.right_side.right_3');
 
-            setTimeout(watch_cir_1_1, 700);
-            setTimeout(watch_cir_1_2, 900);
-            setTimeout(watch_cir_1_3, 1100);
+            setTimeout(watch_cir_1_1, 500);
+            setTimeout(watch_cir_1_2, 700);
+            setTimeout(watch_cir_1_3, 900);
 
             const nth2_watchbg_1_circle_1 = document.querySelector('.section1:nth-child(2) .watchbg_1 .circle_1');
             const nth2_watchbg_2_circle_2 = document.querySelector('.section1:nth-child(2) .watchbg_2 .circle_2');
@@ -698,9 +698,9 @@ window.addEventListener("wheel", (e) => {
             watchbg_3_circle_3.classList.remove('animate');
 
         
-            setTimeout(watch_cir_2_1, 700);
-            setTimeout(watch_cir_2_2, 900);
-            setTimeout(watch_cir_2_3, 1100);
+            setTimeout(watch_cir_2_1, 500);
+            setTimeout(watch_cir_2_2, 700);
+            setTimeout(watch_cir_2_3, 900);
 
             right_side_1.classList.remove('animate');
             right_side_2.classList.add('animate');
@@ -785,9 +785,9 @@ window.addEventListener("wheel", (e) => {
             const nth2_watchbg_3_circle_3 = document.querySelector('.section1:nth-child(2) .watchbg_3 .circle_3');
 
 
-            setTimeout(watch_cir_3_1, 700);
-            setTimeout(watch_cir_3_2, 900);
-            setTimeout(watch_cir_3_3, 1100); 
+            setTimeout(watch_cir_3_1, 500);
+            setTimeout(watch_cir_3_2, 700);
+            setTimeout(watch_cir_3_3, 900); 
   
             nth2_watchbg_1_circle_1.classList.remove('animate');
             nth2_watchbg_2_circle_2.classList.remove('animate');

@@ -74,7 +74,7 @@ html, body {
 
 
 .logo a{
-    background-image:url('/img/logo.png');
+    background-image:url('img/logo.png');
     width:124px;
     height: 19px;
     background-size:cover;
@@ -439,7 +439,7 @@ html, body {
 }
 
 .watchbg_1 .circle_1{
-    background-image: url(/img/bg_watch_1.png);
+    background-image: url(img/bg_watch_1.png);
     opacity: 0;
     /* transform: translateY(-50px); */
    
@@ -465,7 +465,7 @@ html, body {
 
 
 .section1:nth-child(2) .watchbg_1 .circle_1{
-    background-image: url(/img/bg_watch_2_1.png);
+    background-image: url(img/bg_watch_2_1.png);
     opacity: 0;
     /* transform: translateY(-50px); */
    
@@ -480,7 +480,7 @@ html, body {
 
 
 .section1:nth-child(3) .watchbg_1 .circle_1{
-    background-image: url(/img/bg_watch_3_1.png);
+    background-image: url(img/bg_watch_3_1.png);
     opacity: 0;
     /* transform: translateY(-50px); */
    
@@ -495,7 +495,7 @@ html, body {
 
 
 .watchbg_2 .circle_2{
-    background-image: url(/img/bg_watch_2.png);
+    background-image: url(img/bg_watch_2.png);
     opacity: 0;
     /* transform: translateY(-50px); */
     
@@ -506,7 +506,7 @@ html, body {
 
  
 .section1:nth-child(2) .watchbg_2 .circle_2{
-    background-image: url(/img/bg_watch_2_2.png);
+    background-image: url(img/bg_watch_2_2.png);
     opacity: 0;
     /* transform: translateY(-50px); */
     
@@ -515,7 +515,7 @@ html, body {
 
 
 .section1:nth-child(3) .watchbg_2 .circle_2{
-    background-image: url(/img/bg_watch_3_2.png);
+    background-image: url(img/bg_watch_3_2.png);
     opacity: 0;
     /* transform: translateY(-50px); */
     
@@ -525,7 +525,7 @@ html, body {
 
 
 .watchbg_3 .circle_3{
-    background-image: url(/img/bg_watch_3.png);
+    background-image: url(img/bg_watch_3.png);
     opacity: 0;
     /* transform: translateY(-50px); */
 }
@@ -533,7 +533,7 @@ html, body {
 
 
 .section1:nth-child(2) .watchbg_3 .circle_3{
-    background-image: url(/img/bg_watch_2_3.png);
+    background-image: url(img/bg_watch_2_3.png);
     opacity: 0;
     /* transform: translateY(-50px); */
    
@@ -542,7 +542,7 @@ html, body {
 
 
 .section1:nth-child(3) .watchbg_3 .circle_3{
-    background-image: url(/img/bg_watch_3_3.png);
+    background-image: url(img/bg_watch_3_3.png);
     opacity: 0;
     /* transform: translateY(-50px); */
    
@@ -587,7 +587,7 @@ html, body {
 
 
 .right_side .watchstrap{
-    background-image: url(/img/watchstrap.png);
+    background-image: url(img/watchstrap.png);
     width: 545px;
     height: 980px;
     background-position: center;
@@ -607,7 +607,7 @@ html, body {
     top: 46.5%;
     left: 50%;
     transform: translate(-50%, -50%);
-    background-image: url(/img/bg_watch_4_big.png);
+    background-image: url(img/bg_watch_4_big.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -623,7 +623,7 @@ html, body {
     top: 46.5%;
     left: 50%;
     transform: translate(-50%, -50%);
-    background-image: url(/img/bg_watch_big_2.png);
+    background-image: url(img/bg_watch_big_2.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -639,7 +639,7 @@ html, body {
     top: 46.5%;
     left: 50%;
     transform: translate(-50%, -50%);
-    background-image: url(/img/bg_watch_big_3.png);
+    background-image: url(img/bg_watch_big_3.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -883,7 +883,7 @@ html, body {
 }
 
 .swiper_horizon .button_next{
-    background: url(/img/next_button.png);
+    background: url(img/next_button.png);
     width: 28px;
     height: 28px;
     top: 400px;
@@ -894,7 +894,7 @@ html, body {
 
 
 .swiper_horizon .button_prev {
-    background: url(/img/prev_button.png);
+    background: url(img/prev_button.png);
     width: 28px;
     height: 28px;
     top: 400px;
@@ -1602,7 +1602,7 @@ animation-iteration-count: 1;
     }
 
     .right_side .watchstrap {
-        background-image: url(/img/watchstrap_blur.png);
+        background-image: url(img/watchstrap_blur.png);
         width: 445px;
         height: 700px;
         background-position: center;
@@ -2033,7 +2033,7 @@ animation-iteration-count: 1;
     }
 
     .pink_watch {
-        background-image: url(/img/pink_watch_1024.png);
+        background-image: url(img/pink_watch_1024.png);
         
     }
 
@@ -2061,7 +2061,7 @@ animation-iteration-count: 1;
 }
 
 .violet_watch {
-    background-image: url(/img/violet_watch_1024.png);
+    background-image: url(img/violet_watch_1024.png);
     
 }
 
@@ -2083,7 +2083,7 @@ animation-iteration-count: 1;
 }
 
 .darkgray_watch {
-    background-image: url(/img/darkgray_watch_1024.png);
+    background-image: url(img/darkgray_watch_1024.png);
 
 }
 
@@ -2132,7 +2132,7 @@ animation-iteration-count: 1;
 }
 
 .section2_1 .container .pink{
-    background-image: url('/img/pink_watch_1024.png');
+    background-image: url('img/pink_watch_1024.png');
     width: 300px;
     height: 700px;
     background-size: cover;
@@ -2142,7 +2142,7 @@ animation-iteration-count: 1;
 }
 
 .section2_1 .container .silver{
-    background-image: url('/img/violet_watch_1024.png');
+    background-image: url('img/violet_watch_1024.png');
     width: 300px;
     height: 700px;
     background-size: cover;
@@ -2152,7 +2152,7 @@ animation-iteration-count: 1;
 }
 
 .section2_1 .container .darkgray{
-    background-image: url('/img/darkgray_watch_1024.png');
+    background-image: url('img/darkgray_watch_1024.png');
     width: 300px;
     height: 700px;
     background-size: cover;
@@ -2349,7 +2349,7 @@ animation-iteration-count: 1;
 }
 
 .right_side_m .watchstrap_m {
-    background-image: url(/img/watchstrap_blur.png);
+    background-image: url(img/watchstrap_blur.png);
     width: 300px;
     height: 540px;
     background-position: center;
@@ -2761,7 +2761,7 @@ animation-iteration-count: 1;
     }
 
     .watchbg_1 .circle_1 {
-        background-image: url(/img/bg_watch_1.png);
+        background-image: url(img/bg_watch_1.png);
         width: 117px;
         height: 117px;
         background-position: center;
@@ -3003,7 +3003,7 @@ animation-iteration-count: 1;
 /* max-width:500 */
 @media (max-width:500px){
     .logo a {
-        background-image: url(/img/logo.png);
+        background-image: url(img/logo.png);
         width: 100px;
         height: 15px;
         background-size: cover;
