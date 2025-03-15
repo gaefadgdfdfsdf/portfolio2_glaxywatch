@@ -81,9 +81,9 @@ window.addEventListener("wheel", (e) => {
 
            
 
-            setTimeout(watch_cir_1_1, 700);
-            setTimeout(watch_cir_1_2, 900);
-            setTimeout(watch_cir_1_3, 1100);
+            setTimeout(watch_cir_1_1, 500);
+            setTimeout(watch_cir_1_2, 700);
+            setTimeout(watch_cir_1_3, 900);
 
 
             right_side_1.classList.add('animate');
@@ -187,9 +187,9 @@ window.addEventListener("wheel", (e) => {
 
             
            
-            setTimeout(watch_cir_2_1, 700);
-            setTimeout(watch_cir_2_2, 900);
-            setTimeout(watch_cir_2_3, 1100);
+            setTimeout(watch_cir_2_1, 500);
+            setTimeout(watch_cir_2_2, 700);
+            setTimeout(watch_cir_2_3, 900);
 
 
             right_side_3.style.opacity ='0';
@@ -277,9 +277,9 @@ window.addEventListener("wheel", (e) => {
             watchbg_2_circle_2.classList.remove('animate');
             watchbg_3_circle_3.classList.remove('animate');
 
-            setTimeout(watch_cir_3_1, 700);
-            setTimeout(watch_cir_3_2, 900);
-            setTimeout(watch_cir_3_3, 1100); 
+            setTimeout(watch_cir_3_1, 500);
+            setTimeout(watch_cir_3_2, 700);
+            setTimeout(watch_cir_3_3, 900); 
 
 
             nth3_section1_container.style.opacity='1';
