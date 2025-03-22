@@ -1096,6 +1096,16 @@ function fadeIn3(watchstrap, duration) {
 document.addEventListener("DOMContentLoaded", () => {
     //  main fadeIn
     const watch = document.querySelector('.bg-wrap .watch');
+   
+
+    const scrollMove = () => {
+        const topMenu = document.querySelector('.top_menu').offsetTop;
+        window.scrollTo({top: 0, behavior: "smooth"});
+        console.log('top');
+
+    }
+
+    scrollMove();
 
     function fadeIn(watch, duration) {
         if (!watch) return; // 요소가 없으면 실행하지 않음
